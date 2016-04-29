@@ -1,0 +1,859 @@
+{
+    "person": {
+        "first": "Andrew",
+        "last": "Sprouse",
+        "email": "sprouse.a@gmail.com",
+        "location": {
+            "city": "Brooklyn",
+            "state": "NY"
+        }
+    },
+    "experience": [
+        {
+            "company": "Ronik Design",
+            "title": "Lead Developer",
+            "location": {
+                "city": "New York",
+                "state": "NY"
+            },
+            "dateRange": {
+                "from": "2013-09",
+                "to": "2014-11"
+            },
+            "description": "",
+            "projects": [
+                {
+                    "description": "Led the development of <a href=\"http://http://www.walkforclimate.com//\">walkforclimate.com/</a> a social campaign to raise awareness for climate change. The site features a randomized map of user-submitted videos can be shared via social networks. To handle the problem of playing so many videos without crashing or terrible performance framerate based throttling was implemented. In addition to throttling videos waiting to be played are prioritized by visual impact to enhance the effect. Due to large amount of DOM manipulation required by the grid ReactJS was a natural choice.",
+                    "technologies": [
+                        "html5-video-api",
+                        "sass",
+                        "react",
+                        "grunt",
+                        "commonjs",
+                        "webpack",
+                        "jsx",
+                        "travis-ci"
+                    ]
+                },
+                {
+                    "description": "Led the development of <a href=\"http://www.luxesource.com/\">luxesource.org</a> a robust web application experience for viewing architecture and design images. The foundation of the site is a robust RESTful API implemented with Django REST Framework. Django is used to serve minimal SEO optimized HTML while all of the UI is rendered using Marionette and Dust.",
+                    "technologies": [
+                        "django",
+                        "postgresql",
+                        "south",
+                        "haystack",
+                        "rqueue",
+                        "solr",
+                        "redis",
+                        "vagrant",
+                        "html",
+                        "sass",
+                        "backbone",
+                        "backbone-marionette",
+                        "dust-js",
+                        "moment-js",
+                        "grunt",
+                        "commonjs",
+                        "webpack",
+                        "jquery",
+                        "travis-ci"
+                    ]
+                },
+                {
+                    "description": "Led the development of <a href=\"http://www.unlockiran.org/\">unlockiran.org</a> a rich multimedia campaign to bring public awareness to political prisoners in Iran.",
+                    "technologies": [
+                        "html",
+                        "sass",
+                        "backbone",
+                        "backbone-marionette",
+                        "dust-js",
+                        "moment-js",
+                        "grunt",
+                        "commonjs",
+                        "webpack",
+                        "jquery",
+                        "travis-ci"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Pixel Forensics",
+            "title": "Contractor",
+            "location": {
+                "city": "New York",
+                "state": "NY"
+            },
+            "dateRange": {
+                "from": "2013-05",
+                "to": "2014-02"
+            },
+            "description": "",
+            "projects": [
+                {
+                    "description": "Developed a single page web client to aid in automatic video annotation. The client was responsible for fixing annotations that were missed or misplaced by the computer vision algorithm. Bootstrap and EaselJS were used to create a Photoshop-esque annotation experience with auto-scaling and pan/zoom functionality.",
+                    "technologies": [
+                        "html",
+                        "css",
+                        "canvas",
+                        "easel-js",
+                        "dust-js",
+                        "moment-js",
+                        "grunt",
+                        "commonjs",
+                        "jquery",
+                        "rest",
+                        "ajax",
+                        "bootstrap"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Newsweek / The Daily Beast",
+            "title": "Lead Developer",
+            "location": {
+                "city": "New York",
+                "state": "NY"
+            },
+            "dateRange": {
+                "from": "2010-05",
+                "to": "2013-06"
+
+            },
+            "description": "",
+            "projects": [
+                {
+                    "description": "Led the \"Newsweek Global\" project, which was an effort to relaunch Newsweek magazine as a purpose built online magazine. The project was developed on an accelerated schedule without sacrificing features or quality. This was made possible by leveraging the",
+                    "technologies": [
+                        "html",
+                        "css",
+                        "jquery",
+                        "json",
+                        "dust-js",
+                        "moment-js",
+                        "moment-timezone-js",
+                        "nwdb-view-api",
+                        "nwdb-dust-js-templating",
+                        "adobe-cq",
+                        "sling",
+                        "jcr"
+                    ]
+                },
+                {
+                    "description": "Led thedailybeast.com mobile site implementation.",
+                    "technologies": [
+                        "java",
+                        "html",
+                        "css",
+                        "jquery",
+                        "adobe-cq",
+                        "nwdb-view-api",
+                        "nwdb-dust-js-module"
+                    ]
+                },
+                {
+                    "description": "Led the thedailybeast.com gallery redesign. The <a href=\"http://www.thedailybeast.com/galleries/2014/01/02/photo-of-the-day.html\">new gallery design</a> places an emphasis on large high quality images, with snappy client-side and intelligent recirculation. Isomorphic Dust.js templating replaced traditional JSP to increase responsiveness and ease development. To optimize load timesImages were loaded dynamically based on screen size. Each gallery was indexed in Solr, this index powers the each gallery's recirculation components.",
+                    "technologies": [
+                        "java",
+                        "html",
+                        "css",
+                        "jquery",
+                        "ajax",
+                        "json",
+                        "adobe-cq",
+                        "sling",
+                        "jcr",
+                        "nwdb-view-api",
+                        "nwdb-dust-js-module"
+                    ]
+                },
+                {
+                    "description": "Developed the Newsweek/Daily Beast View API. This API allowed all page content to be serialized to JSON for use with the server-side Dust.js rendering module or client side via AJAX. Here is an example of a <a href=\"http://www.thedailybeast.com/galleries/2012/06/28/lanvin-givenchy-resort-2013-the-10-most-expensive-sweatpants-photos.view.json\">gallery</a>.",
+                    "technologies": [
+                        "java",
+                        "sling",
+                        "adobe-cq",
+                        "gson"
+                    ]
+                },
+                {
+                    "description": "Developed the Newsweek/Daily Beast Dust.js Module. This module allows for isomorphic javascript templating i.e. the same template can be utilized on both the server and client. A custom Rhino-powered service was written to compile and render Dust.js templates on the server. The compiled templates were then minified and served to the client for client-side rendering.",
+                    "technologies": [
+                        "java",
+                        "dust-js",
+                        "rhino",
+                        "jcr",
+                        "junit"
+                    ]
+                },
+                {
+                    "description": "Improved Newsweek/Daily Beast image processing servlet. Added advanced features such as dynamic sizing and custom cropping.",
+                    "technologies": [
+                        "sling",
+                        "jcr",
+                        "sling",
+                        "osgi",
+                        "solr"
+                    ]
+                },
+                {
+                    "description": "thedailybeast.com content API",
+                    "technologies": [
+                        "java",
+                        "gson",
+                        "adobe-cq",
+                        "solr"
+                    ]
+                },
+                {
+                    "description": "Newsweek/The Daily Beast Page List Service",
+                    "technologies": [
+                        "java",
+                        "html",
+                        "css",
+                        "jquery",
+                        "adobe-cq",
+                        "solr"
+                    ]
+                },
+                {
+                    "description": "Developed the Newsweek/Daily Beast Indexing Module. This module is responsible for listening for content changes in the CMS and then normalizing and indexing that content into a separate Solr index.",
+                    "technologies": [
+                        "java",
+                        "jcr",
+                        "sling",
+                        "osgi",
+                        "solr",
+                        "junit"
+                    ]
+                },
+                {
+                    "description": "Was part of the small team to convert thedailybeast.com from a custom Ruby based CMS to a ground-up CQ 5.4 implementation.",
+                    "technologies": [
+                        "java",
+                        "html",
+                        "css",
+                        "jquery",
+                        "adobe-cq",
+                        "solr"
+                    ]
+                },
+                {
+                    "description": "Developed Newsweek/Daily Beast Syndication Module which powers all of the RSS, ATOM and custom vendor feeds.",
+                    "technologies": [
+                        "rss",
+                        "atom",
+                        "java",
+                        "rome",
+                        "solr",
+                        "json"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Autonomy",
+            "title": "Software Engineer",
+            "location": {
+                "city": "Boston",
+                "state": "MA"
+            },
+            "dateRange": {
+                "from": "2007-01",
+                "to": "2010-05"
+            },
+            "description": "",
+            "projects": [
+                {
+                    "description": "Implemented a complete frontend reimplementation of a video search engine and metadata-rich video player which was used for \"Open Source\" intelligence gathering. This product was the The interface allowed the search and playback of semi-realtime data captured from broadcast news and was the research version of Autonomy's <a href=\"http://www.autonomy.com/content/Solutions/video-broadcast-monitoring/index.en.html\">Broadcast Monitoring</a> software. The video player provided syncrhonized transcript and keyframe highlighting as well as the ability to download screencaps and export video clips based on user selected time ranges. RESTful JSON and XML APIs were built to feed the highly dynamic UI via AJAX.",
+                    "technologies": [
+                        "html",
+                        "css",
+                        "jquery",
+                        "xml",
+                        "html5-video-api",
+                        "windows-media-player-js-api",
+                        "struts",
+                        "json",
+                        "rest"
+                    ]
+                },
+                {
+                    "description": "Implemented plugins for the project's custom multi-threaded message queue based workflow engine to normalize messy MT (Machine Translation) and ASR (Automated Speech Recognition) data before indexing.",
+                    "technologies": [
+                        "java",
+                        "jms",
+                        "mysql"
+                    ]
+                },
+                {
+                    "description": "Designed and implemented the frontend and backend of a new collaborative \"Workspace\" to allow users to comment on and annotate video and other documents. This user content is indexed (Autonomy IDOL) and then could be leveraged for searching.",
+                    "technologies": [
+                        "html",
+                        "css",
+                        "jquery",
+                        "json",
+                        "rest",
+                        "struts",
+                        "autonomy-idol",
+                        "mysql",
+                        "jms"
+                    ]
+                },
+                {
+                    "description": "Completely internationalized our Video Search/Player product. This involved the design and implementation a custom i18n framework which supported Unicode and right-to-left layouts (Arabic, Hebrew, etc). Once the framework was built, the all strings were refactored out of the code into resource bundles and sent out for Arabic translation.",
+                    "technologies": [
+                        "java",
+                        "resource-bundles",
+                        "css",
+                        "icu4j"
+                    ]
+                },
+                {
+                    "description": "Resposible for maintaining a server rack of 10+ machines running the complete stack for our video search/player product. These machines captured, encoded, stored, streamed satellite video, performed ASR and MT on the streaming video, stored this structured data in a relational database, indexed it for search and provided a webserver to host the web-based interface.",
+                    "technologies": [
+                        "windows-server-2003",
+                        "glassfish",
+                        "mysql",
+                        "autonomy-idol",
+                        "windows-media-server",
+                        "autonomy-virage-videologger",
+                        "autonomy-softsound"
+                    ]
+                },
+                {
+                    "description": "Designed and implemented a web crawler to scrape large amounts (>1GB) of data for Persian language model training. The crawler could be configured with domain specific scraping/normalization rules to deal with the variation in document structure and broken markup.",
+                    "technologies": [
+                        "perl",
+                        "wget",
+                        "lynx",
+                        "tidy"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "MIT Lincoln Laboratory",
+            "title": "Web Application Developer",
+            "location": {
+                "city": "Lexington",
+                "state": "MA"
+            },
+            "dateRange": {
+                "from": "2006-01",
+                "to": "2006-06"
+            },
+            "description": "",
+            "projects": [
+                {
+                    "description": "Designed and implemented an internal web application to collect and display <a href=\"http://www.ll.mit.edu/HPECchallenge/\">HPEC Challenge</a> benchmark data. The application was prototyped in Ruby on Rails and then ported to PHP Symfony (due to archaic server resource constraints). Both versions of the application featured a custom ImageMagick based graphing component for charting kiviat diagrams.",
+                    "technologies": [
+                        "ruby",
+                        "rails",
+                        "php",
+                        "symfony-mvc",
+                        "mysql",
+                        "imagemagick"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Bose",
+            "title": "Software Tester",
+            "location": {
+                "city": "Framingham",
+                "state": "MA"
+            },
+            "dateRange": {
+                "from": "2005-01",
+                "to": "2005-06"
+            },
+            "description": "Not the most glamorous gig, but it's worth noting because this is where I learned the art/science of spec writing and issue reporting.",
+            "projects": [
+                {
+                    "description": "Wrote and executed test cases for the Bose Wave Music System to verify the system met the functional specification",
+                    "technologies": [
+                        "bugzilla",
+                        "blood",
+                        "sweat",
+                        "tears"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Pfizer",
+            "title": "Web Developer",
+            "location": {
+                "city": "Groton",
+                "state": "CT"
+            },
+            "dateRange": {
+                "from": "2004-05",
+                "to": "2004-08"
+            },
+            "description": "Hello World, web development, my first time writing code professionally",
+            "projects": [
+                {
+                    "description": "Constructed a web application to track the maintenance activity of Pfizer's database admin team. The application was written using the latest DHTML tricks and the lesser-known <a href=\"http://sourceforge.net/projects/wingnut/\">WingNut</a> framework and Oracles as the backend.",
+                    "technologies": [
+                        "html",
+                        "dhtml",
+                        "javascript",
+                        "css",
+                        "oracle",
+                        "java",
+                        "wingnut"
+                    ]
+                }
+            ]
+        }
+    ],
+    "knowledge": {
+        "languages": [
+            "Java",
+            "Javascript",
+            "HTML",
+            "CSS",
+            "SQL",
+            "XML",
+            "UML",
+            "Scheme",
+            "Ruby",
+            "PHP",
+            "Perl"
+        ],
+        "technologies": [
+            "HTTP",
+            "AJAX",
+            "REST",
+            "Apache Struts",
+            "JSON",
+            "JDBC",
+            "JMS",
+            "JUnit",
+            "TestNG",
+            "Selenium",
+            "XPATH",
+            "XSLT",
+            "Rails",
+            "Active Record",
+            "Symfony"
+        ],
+        "applications": [
+            "Intellij IDEA",
+            "Eclipse",
+            "Subversion",
+            "Ant",
+            "Apache httpd",
+            "Glassfish",
+            "MySQL",
+            "Saxon",
+            "Microsoft Office",
+            "Adobe Creative Suite"
+        ]
+    },
+    "education": [
+        {
+            "school": "Northeastern University",
+            "college": "College of Computer and Information Science",
+            "location": {
+                "city": "Boston",
+                "state": "MA"
+            },
+            "date": "2008",
+            "honors": [
+                "Cum Laude",
+                "Upsilon Pi Epsilon"
+            ],
+            "degree": "BS Computer Science",
+            "coursework": [
+                "Discrete Mathematics",
+                "Symbolic Logic",
+                "Object Oriented Design",
+                "Computer Organization",
+                "Theory of Computation",
+                "Systems and Networks",
+                "Programming Languages",
+                "Algorithms and Datastructures",
+                "Database Design",
+                "Network Security",
+                "Cryptography"
+            ]
+        }
+    ],
+    "technologies": {
+        "react": {
+            "name": "React",
+            "url": "http://facebook.github.io/react/",
+            "description": ""
+        },
+        "jsx": {
+            "name": "JSX",
+            "url": "http://facebook.github.io/react/docs/jsx-in-depth.html",
+            "description": ""
+        },
+        "django": {
+            "name": "Django",
+            "url": "https://www.djangoproject.com/",
+            "description": ""
+        },
+        "django-rest": {
+            "name": "Django REST Framework",
+            "url": "http://www.django-rest-framework.org/",
+            "description": ""
+        },
+        "postgresql": {
+            "name": "PostgreSQL",
+            "url": "http://www.postgresql.org/",
+            "description": ""
+        },
+        "south": {
+            "name": "South",
+            "url": "http://south.aeracode.org/",
+            "description": ""
+        },
+        "haystack": {
+            "name": "Haystack",
+            "url": "http://haystacksearch.org/",
+            "description": ""
+        },
+        "rqueue": {
+            "name": "Python RQ",
+            "url": "http://python-rq.org/",
+            "description": ""
+        },
+        "redis": {
+            "name": "Redis",
+            "url": "http://redis.io/",
+            "description": ""
+        },
+        "vagrant": {
+            "name": "Vagrant",
+            "url": "https://www.vagrantup.com/",
+            "description": ""
+        },
+        "sass": {
+            "name": "SASS",
+            "url": "http://sass-lang.com/",
+            "description": ""
+        },
+        "backbone": {
+            "name": "Backbone",
+            "url": "http://backbonejs.org/",
+            "description": ""
+        },
+        "backbone-marionette": {
+            "name": "Backbone Marionette",
+            "url": "http://marionettejs.com/",
+            "description": ""
+        },
+        "travis-ci": {
+            "name": "Travis CI",
+            "url": "https://travis-ci.com/",
+            "description": ""
+        },
+        "webpack": {
+            "name": "CommonJS",
+            "url": "http://webpack.github.io/",
+            "description": ""
+        },
+        "commonjs": {
+            "name": "CommonJS",
+            "url": "http://wiki.commonjs.org/wiki/CommonJS",
+            "description": ""
+        },
+        "grunt": {
+            "name": "Grunt",
+            "url": "http://gruntjs.com/",
+            "description": ""
+        },
+        "easel-js": {
+            "name": "EaselJS",
+            "url": "http://www.createjs.com/#!/EaselJS",
+            "description": ""
+        },
+        "canvas": {
+            "name": "Canvas",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+            "description": ""
+        },
+        "html": {
+            "name": "HTML",
+            "url": "http://en.wikipedia.org/wiki/HTML",
+            "description": ""
+        },
+        "css": {
+            "name": "CSS",
+            "url": "http://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+            "description": ""
+        },
+        "jquery": {
+            "name": "jQuery",
+            "url": "http://jquery.com/",
+            "description": ""
+        },
+        "json": {
+            "name": "JSON",
+            "url": "http://www.json.org/",
+            "description": ""
+        },
+        "dust-js": {
+            "name": "Dust.js",
+            "url": "http://linkedin.github.io/dustjs/",
+            "description": ""
+        },
+        "moment-js": {
+            "name": "moment.js",
+            "url": "http://momentjs.com/",
+            "description": ""
+        },
+        "moment-timezone-js": {
+            "name": "moment-timezone.js",
+            "url": "http://momentjs.com/timezone/",
+            "description": ""
+        },
+        "nwdb-view-api": {
+            "name": "Newsweek/Daily Beast View API",
+            "url": "",
+            "description": ""
+        },
+        "nwdb-dust-js-templating": {
+            "name": "Newsweek/Daily Beast Dust.js templating",
+            "url": "",
+            "description": ""
+        },
+        "adobe-cq": {
+            "name": "Adobe CQ",
+            "url": "http://www.adobe.com/sea/products/cq.html",
+            "description": ""
+        },
+        "sling": {
+            "name": "Sling",
+            "url": "http://sling.apache.org/",
+            "description": ""
+        },
+        "jcr": {
+            "name": "JCR",
+            "url": "http://en.wikipedia.org/wiki/Content_repository_API_for_Java",
+            "description": ""
+        },
+        "java": {
+            "name": "Java",
+            "url": "https://www.java.com/en/",
+            "description": ""
+        },
+        "autonomy-idol": {
+            "name": "Autonomy IDOL",
+            "url": "http://www.autonomy.com/products/idol",
+            "description": ""
+        },
+        "nwdb-dust-js-module": {
+            "name": "Newsweek Dust.js Module",
+            "url": "",
+            "description": ""
+        },
+        "ajax": {
+            "name": "AJAX",
+            "url": "http://en.wikipedia.org/wiki/Ajax_%28programming%29",
+            "description": ""
+        },
+        "gson": {
+            "name": "Gson",
+            "url": "https://code.google.com/p/google-gson/",
+            "description": ""
+        },
+        "rhino": {
+            "name": "Rhino",
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino",
+            "description": ""
+        },
+        "junit": {
+            "name": "JUnit",
+            "url": "http://junit.org/",
+            "description": ""
+        },
+        "osgi": {
+            "name": "OSGi",
+            "url": "http://www.osgi.org/Main/HomePage",
+            "description": ""
+        },
+        "solr": {
+            "name": "Solr",
+            "url": "http://lucene.apache.org/solr/",
+            "description": ""
+        },
+        "rss": {
+            "name": "RSS",
+            "url": "http://en.wikipedia.org/wiki/RSS",
+            "description": ""
+        },
+        "atom": {
+            "name": "ATOM",
+            "url": "http://en.wikipedia.org/wiki/Atom_(standard)",
+            "description": ""
+        },
+        "rome": {
+            "name": "Rome",
+            "url": "http://rometools.github.io/rome/",
+            "description": ""
+        },
+        "xml": {
+            "name": "XML",
+            "url": "http://en.wikipedia.org/wiki/XML",
+            "description": ""
+        },
+        "html5-video-api": {
+            "name": "HTML5 Video API",
+            "url": "http://www.w3.org/2010/05/video/mediaevents.html",
+            "description": ""
+        },
+        "windows-media-player-js-api": {
+            "name": "Windows Media Player JS API",
+            "url": "",
+            "description": ""
+        },
+        "struts": {
+            "name": "Struts",
+            "url": "https://struts.apache.org/",
+            "description": ""
+        },
+        "rest": {
+            "name": "REST",
+            "url": "http://en.wikipedia.org/wiki/Representational_state_transfer",
+            "description": ""
+        },
+        "jms": {
+            "name": "JMS",
+            "url": "http://en.wikipedia.org/wiki/Java_Message_Service",
+            "description": ""
+        },
+        "mysql": {
+            "name": "MySQL",
+            "url": "http://www.mysql.com/",
+            "description": ""
+        },
+        "resource-bundles": {
+            "name": "Java Resource Bundles",
+            "url": "http://en.wikipedia.org/wiki/Java_resource_bundle",
+            "description": ""
+        },
+        "icu4j": {
+            "name": "ICU4J",
+            "url": "http://site.icu-project.org/",
+            "description": ""
+        },
+        "windows-server-2003": {
+            "name": "Windows Server 2003",
+            "url": "http://en.wikipedia.org/wiki/Windows_Server_2003",
+            "description": ""
+        },
+        "glassfish": {
+            "name": "Glassfish",
+            "url": "https://glassfish.java.net/",
+            "description": ""
+        },
+        "windows-media-server": {
+            "name": "Windows Media Server",
+            "url": "",
+            "description": ""
+        },
+        "autonomy-virage-videologger": {
+            "name": "Autonomy Virage Videologger",
+            "url": "http://www.autonomy.com/offerings/information-analytics/video-surveillance",
+            "description": ""
+        },
+        "autonomy-softsound": {
+            "name": "Autonomy Softsound",
+            "url": "http://www.autonomy.com/technology/idol-the-os/video-audio-capabilities",
+            "description": ""
+        },
+        "perl": {
+            "name": "Perl",
+            "url": "https://www.perl.org/",
+            "description": ""
+        },
+        "wget": {
+            "name": "wget",
+            "url": "https://www.gnu.org/software/wget/",
+            "description": ""
+        },
+        "lynx": {
+            "name": "lynx",
+            "url": "http://lynx.isc.org/",
+            "description": ""
+        },
+        "tidy": {
+            "name": "Tidy",
+            "url": "http://tidy.sourceforge.net/",
+            "description": ""
+        },
+        "ruby": {
+            "name": "Ruby",
+            "url": "https://www.ruby-lang.org/",
+            "description": ""
+        },
+        "rails": {
+            "name": "Rails",
+            "url": "http://rubyonrails.org/",
+            "description": ""
+        },
+        "php": {
+            "name": "PHP",
+            "url": "http://php.net/",
+            "description": ""
+        },
+        "symfony-mvc": {
+            "name": "Symfony MVC",
+            "url": "http://symfony.com/",
+            "description": ""
+        },
+        "imagemagick": {
+            "name": "ImageMagick",
+            "url": "http://www.imagemagick.org/",
+            "description": ""
+        },
+        "bugzilla": {
+            "name": "Bugzilla",
+            "url": "https://www.bugzilla.org/",
+            "description": ""
+        },
+        "blood": {
+            "name": "Blood",
+            "url": "http://en.wikipedia.org/wiki/Blood",
+            "description": ""
+        },
+        "sweat": {
+            "name": "Sweat",
+            "url": "http://en.wikipedia.org/wiki/Perspiration",
+            "description": ""
+        },
+        "tears": {
+            "name": "Tears",
+            "url": "http://en.wikipedia.org/wiki/Tears",
+            "description": ""
+        },
+        "dhtml": {
+            "name": "DHTML",
+            "url": "http://en.wikipedia.org/wiki/Dynamic_HTML",
+            "description": ""
+        },
+        "javascript": {
+            "name": "Javascript",
+            "url": "http://en.wikipedia.org/wiki/JavaScript",
+            "description": ""
+        },
+        "oracle": {
+            "name": "Oracle",
+            "url": "https://www.oracle.com/database",
+            "description": ""
+        },
+        "wingnut": {
+            "name": "WingNut",
+            "url": "http://sourceforge.net/projects/wingnut/",
+            "description": ""
+        }
+    }
+}
