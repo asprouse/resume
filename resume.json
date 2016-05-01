@@ -555,7 +555,7 @@
             "description": ""
         },
         "webpack": {
-            "name": "CommonJS",
+            "name": "Webpack",
             "url": "http://webpack.github.io/",
             "description": ""
         },
