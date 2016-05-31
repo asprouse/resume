@@ -23,7 +23,7 @@
             "description": "",
             "projects": [
                 {
-                    "description": "Led the development of <a href=\"http://http://www.walkforclimate.com//\">walkforclimate.com/</a> a social campaign to raise awareness for climate change. The site features a randomized map of user-submitted videos can be shared via social networks. To handle the problem of playing so many videos without crashing or terrible performance framerate based throttling was implemented. In addition to throttling videos waiting to be played are prioritized by visual impact to enhance the effect. Due to large amount of DOM manipulation required by the grid ReactJS was a natural choice.",
+                    "description": "Led the development of <a href=\"http://http://www.walkforclimate.com\">walkforclimate.com</a> a social campaign to raise awareness for climate change. The site features a randomized map of user-submitted videos can be shared via social networks. To handle the problem of playing so many videos without crashing or terrible performance frame rate based throttling was implemented. In addition to throttling videos waiting to be played are prioritized by visual impact to enhance the effect. Due to large amount of DOM manipulation required by the grid ReactJS was a natural choice.",
                     "technologies": [
                         "html5-video-api",
                         "sass",
@@ -36,7 +36,7 @@
                     ]
                 },
                 {
-                    "description": "Led the development of <a href=\"http://www.luxesource.com/\">luxesource.org</a> a robust web application experience for viewing architecture and design images. The foundation of the site is a robust RESTful API implemented with Django REST Framework. Django is used to serve minimal SEO optimized HTML while all of the UI is rendered using Marionette and Dust.",
+                    "description": "Led the development of <a href=\"http://www.luxesource.com/\">luxesource.org</a> a single page app-like experience for viewing architecture and design images. The foundation of the site is a robust RESTful API implemented with Django REST Framework. Django is used to serve minimal SEO optimized HTML while all of the UI is rendered using Marionette and Dust.",
                     "technologies": [
                         "django",
                         "postgresql",
